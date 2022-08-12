@@ -1,0 +1,27 @@
+<a href="/dashboard" style="color: blue;"> &larr; Dashboard</a>
+
+<article class="post">
+    <div class="title">
+        Edit a Post
+    </div>
+    <div class="content">
+        <form class="edit-post-form">
+            <div>
+                <label for="post-title">Post</label>
+                <input name="post-title" type="text" style="width: 100%;" value="{{post.title}}" />
+            </div>
+            <div>
+                <label for="post_text">Post</label>
+                <textarea name="post_text" id="post_text" style="width: 100%;">{{post.post_text}}</textarea>
+            </div>
+            <div>
+                You created this post on {{format_date post.created_at}}
+            </div>
+            <button type="submit">Save</button>
+            <button type="button" class="delete-post-btn">Delete</button>
+    </div>
+</article>
+{{#if loggedIn}}
+<script src="/javascript/edit-post.js"></script>
+<script src="/javascript/delete-post.js"></script>
+{{/if}}
