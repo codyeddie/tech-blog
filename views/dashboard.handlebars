@@ -1,15 +1,17 @@
-<a href="/dashboard/new-post"><button>Create New Post</button></a>
+
+<a href="/dashboard/new-post"><button>+ Get blogging!</button></a>
 
 {{#if posts.length}}
 <section>
-    <h2>My Blog</h2>
-    <ol>
-        {{#each posts as |post|}}
-        <li>
-            {{> post-info post}}
-            <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
-        </li>
-        {{/each}}
-    </ol>
+  <h2>My Blog</h2>
+  <ol>
+    {{#each posts as |post|}}
+    <li>
+      {{> post-info post}}
+      <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit</a>
+    </li>
+    {{/each}}
+  </ol>
 </section>
 {{/if}}
+

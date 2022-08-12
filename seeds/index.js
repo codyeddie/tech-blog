@@ -4,7 +4,6 @@ const seedComments = require('./comments');
 
 const sequelize = require('../config/connection');
 
-// this uses sequelize to seed all the data from seeds 
 const seedAll = async () => {
   await sequelize.sync({ force: true });
   console.log('--------------');

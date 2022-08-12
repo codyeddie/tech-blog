@@ -1,10 +1,10 @@
-// checks to see if a logged in before they can use certain app functionality
+// this checks that a user is logged in 
 const checkAuth = (req, res, next) => {
-    if (!req.session.user_id) {
-        res.redirect('/login');
-    } else {
-        next();
-    }
+  if (!req.session.user_id) {
+    res.redirect('/login');
+  } else {
+    next();
+  }
 };
 
 module.exports = checkAuth;

@@ -1,15 +1,14 @@
 const { Post } = require('../models');
 
-// data for the post model 
 const postdata = [
   {
-    title: 'airports.',
-    post_text: 'airports am i right?',
+    title: 'Chicken Wars ',
+    post_text: 'Raising Canes or Chik-Fil-a ',
     user_id: 1
   },
   {
-    title: 'fastfood is cursed.',
-    post_text: 'you ever neem to a mcdonalds?',
+    title: 'Airports am I right?',
+    post_text: 'airports are the bane of my existence',
     user_id: 2
   },
 ];
