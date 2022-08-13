@@ -2,32 +2,32 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #d9ead3;
+  background-color: rgb(240, 200, 210);
 }
 body, html {
   height: 100%;
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: #333;
+  color: black;
 }
 
 a {
   text-decoration: none;
-  color: #d9ead3;
+  color: black;
   font-weight: bold;
   transition: color .1s;
 }
 
 a:hover {
-  color: #a7a7a7;
+  color: salmon;
 }
 
 button {
-  background-color: #666666;
+  background-color: rgb(150, 45, 65);
   border: 0;
   padding: 1%;
-  color: white;
+  color: black;
   font-weight: bold;
   transition: background-color .1s;
   cursor: pointer;
@@ -36,7 +36,7 @@ button {
 }
 
 button:hover {
-  background-color: #a7a7a7;
+  background-color: rgb(70, 15, 25);
 }
 
 .post-list {
@@ -52,7 +52,7 @@ textarea, input {
 
 textarea:focus, input:focus {
   outline: none;
-  border: 1px solid #3486eb;
+  border: 1px solid blue;
 }
 
 textarea {
@@ -79,20 +79,20 @@ form label {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 0 1%;
-  background-color: #231010;
-  color: #d9ead3;
+  background-color: rgb(150, 45, 65);
+  color: rgb(240, 200, 210);
 }
 
 header h1 {
   font-size: 2.8em;
-  color: #231010;
-  background-color: #d9ead3;
+  color: black;
+  background-color: rgb(240, 200, 210);
   padding:  10px 25px;
-  border-radius: 5px;
-  box-shadow:  5px 5px #a7a7a7;
+  border-radius: 25px;
+  box-shadow:  5px 5px rgb(70, 15, 25);
 }
 
 main {
@@ -106,7 +106,7 @@ main {
   padding: 10px 30px;
   cursor: pointer;
   text-decoration: none;
-  color: #d9ead3;
+  color: rgb(240, 200, 210);
   font-size: 100%;
   font-weight: bold;
   transition: color .1s;
@@ -130,14 +130,16 @@ main {
 .post {
   margin-bottom: 2%;
   line-height: 150%;
-  border: 5px solid #231010;
+  border: 5px solid rgb(150, 45, 65);
+  border-radius: 25px;
 }
 .post .title {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  background-color: #231010;
-  color: #d9ead3;
+  background-color: rgb(150, 45, 65);
+  border-radius: 10px;
+  color: rgb(240, 200, 210);
   font-size: 1.2em;
   padding: 10px 5px;
 }
@@ -145,7 +147,7 @@ main {
 .post .title span {
   font-style: italic;
   font-size: 70%;
-  color: #7d7d7d;
+  color: rgb(240, 200, 210);
 }
 
 .post .content {
