@@ -21,4 +21,4 @@ I utilized my tutor and referenced previous module work and lessons to complete 
 ## Video-Demo
 https://drive.google.com/file/d/18TDpKiWNXBYkV8c4vqto0UPzfbTWFXMd/view
 
-![Screenshot](/assets/imgs/screenshot.png)
+![Screenshot](./public/imgs/screenshot.png)
