@@ -95,6 +95,10 @@ header h1 {
   box-shadow:  5px 5px rgb(70, 15, 25);
 }
 
+header h1:hover {
+  background-color:rgba(70, 15, 25, .15);
+}
+
 main {
   flex: 1;
   padding: 2% 4%;
@@ -194,3 +198,9 @@ footer {
   padding: 1%;
   font-size: 110%;
 }
+
+.dashboard, 
+.signup,
+.login {
+  color: rgb(70, 15, 25); ;
+};
