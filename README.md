@@ -4,6 +4,7 @@
 The point of this application is to allow users to login or sign up for the tech blog application. Once logged in, users will be able to create posts as well as view and comment on other user's posts.
 
 * Heroku Link
+https://codys-tech-blog-420-69-666.herokuapp.com/
 
 ## Table of Contents
 
@@ -18,5 +19,6 @@ To install this application you must first clone the repo to your local machine.
 I utilized my tutor and referenced previous module work and lessons to complete this assignment. 
 
 ## Video-Demo
+https://drive.google.com/file/d/18TDpKiWNXBYkV8c4vqto0UPzfbTWFXMd/view
 
 ![Screenshot](/assets/imgs/screenshot.png)
